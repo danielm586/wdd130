@@ -1,0 +1,69 @@
+/* General page styling */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+
+nav {
+    background-color: #333;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Main content */
+
+main {
+    max-width: 840px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid #333;
+    padding: 2px;
+    box-shadow: 0 0 15px gray;
+}
+
+/* Aside section */
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+/* Paragraph */
+
+p {
+    padding: 0;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 20px;
+    border-top: 1px solid #333;
+    text-align: center;
+    padding: 10px;
+}
