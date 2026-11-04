@@ -1,37 +1,35 @@
-/* General page styling */
-
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-}
-
 /* Navigation */
 
 nav {
     background-color: #333;
-    padding: 15px;
+    padding: 10px;
 }
 
 nav a {
     color: white;
-    text-decoration: none;
-    margin-right: 20px;
+    padding: 10px;
+    display: block;
 }
 
 /* Main content */
 
 main {
     max-width: 840px;
-    margin: 20px auto;
-    padding: 10px;
+    margin: 0 auto;
 }
+
+/* Heading */
+
+h1 {
+    color: darkblue;
+}
+
+/* Main image */
 
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid #333;
+    border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 15px gray;
 }
@@ -45,8 +43,9 @@ aside {
     padding: 1rem;
     background-color: #eee;
     color: #333;
-    text-align: center;
 }
+
+/* Aside image */
 
 aside img {
     width: 200px;
@@ -62,8 +61,7 @@ p {
 /* Footer */
 
 footer {
-    margin-top: 20px;
+    margin-top: 15px;
     border-top: 1px solid #333;
     text-align: center;
-    padding: 10px;
 }
