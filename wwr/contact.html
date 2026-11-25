@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact White Water Rafting with questions about our rafting trips, reservations, and services. Find our address, phone, email, and contact form.">
+    <meta name="author" content="Daniel Maxwell">
+    <title>Contact Us | White Water Rafting</title>
+
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="White Water Rafting logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html" aria-current="page">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-page">
+        <section class="contact-heading">
+            <h1>Contact White Water Rafting</h1>
+            <address>
+                123 Main River Street<br>
+                Kolob, California<br>
+                <a href="tel:+19999999999">+1 999 999 9999</a><br>
+                <a href="mailto:info@whitewater.com">info@whitewater.com</a>
+            </address>
+        </section>
+
+        <section class="contact-details" aria-label="Contact us">
+            <iframe class="contact-map" title="Map showing the White Water Rafting office location" src="https://maps.google.com/maps?q=123%20Main%20River%20Street%2C%20Kolob%2C%20California&t=&z=13&ie=UTF8&iwloc=&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+            <form class="contact-form" action="mailto:info@whitewater.com" method="post" enctype="text/plain">
+                <div class="form-field">
+                    <label for="customer-name">Name</label>
+                    <input type="text" id="customer-name" name="name" autocomplete="name" required>
+                </div>
+
+                <div class="form-field">
+                    <label for="customer-email">Email</label>
+                    <input type="email" id="customer-email" name="email" autocomplete="email" required>
+                </div>
+
+                <fieldset class="purpose-options">
+                    <legend>Message purpose</legend>
+                    <div>
+                        <input type="radio" id="general-inquiry" name="purpose" value="General Inquiry" required>
+                        <label for="general-inquiry">General Inquiry</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="reservation-question" name="purpose" value="Reservation Question">
+                        <label for="reservation-question">Reservation Question</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="website-suggestion" name="purpose" value="Website Suggestion">
+                        <label for="website-suggestion">Website Suggestion</label>
+                    </div>
+                </fieldset>
+
+                <div class="form-field message-field">
+                    <label for="customer-message">Message</label>
+                    <textarea id="customer-message" name="message" rows="6" required></textarea>
+                </div>
+
+                <div class="newsletter-option">
+                    <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                </div>
+
+                <button type="submit">Send Your Message</button>
+            </form>
+        </section>
+
+        <section class="employee-section">
+            <h2>We Are Here to Serve You</h2>
+            <div class="employee-profiles">
+                <figure>
+                    <img src="images/lead-rafting-guide.jpg" alt="Rafting team member">
+                    <figcaption>Lead Rafting Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/safety-coordinator.jpg" alt="Rafting team member">
+                    <figcaption>Safety Coordinator</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/trip-coordinator.jpg" alt="Rafting team member">
+                    <figcaption>Trip Coordinator</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 White Water Rafting | Daniel Maxwell</p>
+
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com/">
+                <img src="images/facebook.svg" alt="Facebook">
+            </a>
+
+            <a href="https://www.instagram.com/">
+                <img src="images/instagram.svg" alt="Instagram">
+            </a>
+
+            <a href="https://www.youtube.com/">
+                <img src="images/youtube.svg" alt="YouTube">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
